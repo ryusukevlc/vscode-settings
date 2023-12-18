@@ -1,0 +1,46 @@
+{
+    "workbench.iconTheme": "vs-seti",
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "、": true
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.showSlider": "always",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "~/.vimrc",
+    "hediet.vscode-drawio.resizeImages": null,
+    "vim.useSystemClipboard": true,
+    "terminal.integrated.defaultProfile.linux": "tmux",
+    "editor.stickyScroll.enabled": true,
+    "hediet.vscode-drawio.theme": "atlas",
+    "workbench.startupEditor": "none",
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "GitHub Dark",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-p>": false
+    },
+    "vim.normalModeKeyBindings": [
+        // TODO: ターミナルを t → b で表示するようにする
+        // {
+        //     "before": ["t", "b"],
+        //     "commands": [""]
+        // }
+
+    ]
+}

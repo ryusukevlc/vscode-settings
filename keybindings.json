@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+    // toggle explorer with ctrl+f
+    {
+        "key": "ctrl+f",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+    // toggle search with ctrl+g
+    {
+        "key": "ctrl+g",
+        "command": "workbench.view.search"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.view.search"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "searchViewletVisible"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "searchViewletVisible"
+    },
+]
