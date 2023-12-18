@@ -1,41 +1,69 @@
-// Place your key bindings in this file to override the defaults
 [
-    // toggle explorer with ctrl+f
-    {
-        "key": "ctrl+f",
-        "command": "workbench.view.explorer"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "-workbench.view.explorer"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "explorerViewletVisible"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "-workbench.action.toggleSidebarVisibility",
-        "when": "explorerViewletVisible"
-    },
-    // toggle search with ctrl+g
-    {
-        "key": "ctrl+g",
-        "command": "workbench.view.search"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "-workbench.view.search"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "searchViewletVisible"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "-workbench.action.toggleSidebarVisibility",
-        "when": "searchViewletVisible"
-    },
+  {
+    "key": "ctrl+f",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletVisible"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletVisible"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.view.search"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.view.search"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "searchViewletVisible"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.toggleSidebarVisibility",
+    "when": "searchViewletVisible"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "search.action.focusNextSearchResult",
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "search.action.focusPreviousSearchResult",
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "list.find",
+    "when": "listFocus && listSupportsFind"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "closeFindWidget",
+    "when": "findWidgetVisible"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "list.closeFind",
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  }
 ]
