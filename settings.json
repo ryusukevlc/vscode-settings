@@ -35,12 +35,5 @@
     "vim.handleKeys": {
         "<C-p>": false
     },
-    "vim.normalModeKeyBindings": [
-        // TODO: ターミナルを t → b で表示するようにする
-        // {
-        //     "before": ["t", "b"],
-        //     "commands": [""]
-        // }
-
-    ]
+    "vim.normalModeKeyBindings": []
 }
